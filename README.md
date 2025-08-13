@@ -28,6 +28,8 @@ This program streamlines the process of generating test data for your developmen
 
 Example command to create fully random data with SQL Schemas in the working directory and output being created in the working directory.
 ```
+Bash
+
 python3 generate_random_inserts.py
 ```
 
