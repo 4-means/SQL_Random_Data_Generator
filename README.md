@@ -18,6 +18,11 @@ This program streamlines the process of generating test data for your developmen
 
 * **Customizable:** Easily configure the number of rows to generate for each table, giving you full control over the dataset size.
 
+## Dependencies
+* Python
+* Faker 
+* SQL Schema files that end in .sql and that contain the CREATE TABLE statement. 
+
 ## Parameters
 * **--schmea-dir**  - The directory that contains the SQL schemas.  Do not pass, or use . for working directory
 * **--key-fields**  - The fields used for keys. This will define the parent table and separate multiple fields by a comma. (e.g. par_key1, par_key2). The program uses the fields ot derive the parent table.
