@@ -6,7 +6,7 @@ This program streamlines the process of generating test data for your developmen
 
 * **Schema-Driven Generation:** Reads your SQL schemas to understand table structures, data types, and field lengths.
 
-* **Data Creation:*** Automatically generates random data for each field that respects the defined data type (INT, VARCHAR, DATE, etc.) and length constraints.
+* **Data Creation:** Automatically generates random data for each field that respects the defined data type (INT, VARCHAR, DATE, etc.) and length constraints.
 
 * **Key-Aware Data Generation:** Understands and respects primary keys and foreign keys to create valid relationships between tables, ensuring referential integrity. This is crucial for creating realistic datasets that can be used for table joins.
 
