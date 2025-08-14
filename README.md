@@ -26,11 +26,20 @@ This program streamlines the process of generating test data for your developmen
 * **--foreign-map** - Defines the foreign keys that will be used to join the tables.  (e.g. ct1_key1=par_key1,ct1_key2=par_key2,ct2_key1=par_key1,ct2_key2=par_key2)
 * **--output-dir**  - The directory where the output files will be created.  Do not pass, or use . for the working directory.
 
-Example command to create fully random data with SQL Schemas in the working directory and output being created in the working directory.
+Example command to create unkeyed fully random data with SQL schemas placed in and output being created in the working directory.
 ```
-Bash
-
 python3 generate_random_inserts.py
+```
+
+Command using the complete set of options. 
+```
+python3 generate_random_inserts.py \
+  --schema-dir . \
+  --key-fields par_type,par_key \
+  --num-rows 1 \
+  --multipliers Child_Table_1=3,Child_Table=2 \
+  --foreign-map ct1_key1=par_key1,ct1_key2=par_key2,ct2_key1=par_key1,ctr2_key2=par_key2 \
+  --output-dir .
 ```
 
 
