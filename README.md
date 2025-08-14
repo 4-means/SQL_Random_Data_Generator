@@ -1,5 +1,5 @@
 # SQL_Random_Data_Generator
-A tool for populating your SQL databases with randomized data, making it perfect for development, unit testing, and stress testing. It handles table relationships to create a complete and functional dataset. The tool does use [Faker](https://github.com/joke2k/faker) in some cases for data generation. 
+A CLI tool for populating your SQL databases with randomized data, making it perfect for development, unit testing, and stress testing. It handles table relationships to create a complete and functional dataset. The tool does use [Faker](https://github.com/joke2k/faker) in some cases for data generation. 
 
 ## Features
 This program streamlines the process of generating test data for your development and testing environments.
